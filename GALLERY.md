@@ -4,7 +4,7 @@
 - 生成器：内置 image_gen；用户附件仅作风格参考。原图 incoming/；全部准确提示词 prompts.json。第100张源文件名 festival-100.png，保证模板的文件排序中置于末尾；ZIP内仍为100.png。
 - 用户偏好：木刻刀痕、套色、纸张肌理；颜色多样变化；城市批次避免前批景点重复；允许 subagent 并行。
 - 页面保持 build-gallery 模板，editorial 暖白主题、grid。山野/江湖/海岸/田园/中国名胜/旅游城市/山河里的生活/节日与民俗/海外风光/日本庭院与鸟居/海浪与潮汐十一类，另增上海、苏州、成都、京都、首尔、大阪、马德里、塞维利亚、巴塞罗那、里斯本、格拉纳达城市分类，每城5张。下载和分享开启、统计关闭。
-- 预览：http://127.0.0.1:4327；未部署或创建远程仓库。
+- 预览：http://127.0.0.1:4327；正式地址：https://shanhe-gallery.xiaosang.cc/；源码：https://github.com/holynova/shanhe-gallery。
 - 2026-10-05 新增：生活组20幅，清晨/途中/暮色/夜里各5幅；节日组20幅，涵盖春节、元宵、清明、端午、七夕、中秋、重阳、腊八、小年、冬至、泼水节、火把节、藏历新年等节庆场景。
 - 前60张原图SHA256及图片说明逐项保持原样。100张原图哈希全部唯一，新图逐图或总览目视检查通过。
 - 验证：模板一致性通过；类型检查0错误/警告；7项测试通过；最终ingest/validate/build成功；100张、1500个响应式文件、261669813 bytes输出；原始PNG不进入dist。
@@ -39,3 +39,6 @@
 ## 首次正式发布
 
 目标 https://shanhe-gallery.xiaosang.cc/；GitHub holynova/shanhe-gallery，main 分支。本次发布技能要求 footer 增加 GitHub 链接与构建注入版本，为模板外观约束的具体授权例外，不修改网格和导航布局。保留明确 analytics.enabled=false 配置。账户100个Custom Domain已满，采用同一正式子域名的代理DNS与精确Worker Route，不移除其他项目。
+
+2026-10-06 发布完成：v0.1.1，main 运行源码提交0a42c38。项目 Worker shanhe-gallery，版本25d0fca9-553d-486e-a0c9-384dfb780615；正式域名HTTPS200，185张、公网11城市各5张、灯箱/下载/390px布局通过，控制台0错误。18项JS/CSS/图片/favicon公网哈希与构建一致。二维码实际解码通过。
+作品集 master 提交073d7f4，xiaosang-portfolio版本e8c08f55-d6aa-4489-8bb8-0e6019dd57d5；线上完整JSON与master一致，截图哈希相同，卡片点击打开正式画廊。Profile main 提交ee13366，公开页面已显示新行及正确Repo/Demo链接。统计沿用关闭设置；未开启Pages或自动发布。
