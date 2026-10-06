@@ -1,0 +1,38 @@
+{
+  "name": "shanhe-gallery",
+  "version": "0.1.1",
+  "private": true,
+  "type": "module",
+  "description": "185 original multicolor woodcut-style AI landscapes in an accessible city and landscape gallery",
+  "scripts": {
+    "dev": "astro dev",
+    "images": "npm run ingest",
+    "ingest": "tsx scripts/ingest.ts",
+    "validate": "tsx scripts/validate.ts",
+    "check": "astro check",
+    "test": "vitest run",
+    "build": "npm run ingest && npm run validate && astro build",
+    "preview": "astro preview",
+    "deploy:cloudflare": "npm run build && wrangler deploy --config wrangler.toml",
+    "deploy:check": "wrangler deploy --dry-run --config wrangler.toml",
+    "deploy": "npm run build && wrangler deploy --config wrangler.toml"
+  },
+  "dependencies": {
+    "astro": "^7.3.3",
+    "js-yaml": "^4.1.0",
+    "sharp": "^0.35.4",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^24.3.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vitest": "^4.1.11",
+    "wrangler": "4.128.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

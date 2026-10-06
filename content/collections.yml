@@ -1,0 +1,136 @@
+{
+  "collections": [
+    {
+      "id": "mountains",
+      "title": "山野",
+      "description": "山峦与林间小径",
+      "order": 1
+    },
+    {
+      "id": "waters",
+      "title": "江湖",
+      "description": "江河湖泊与水岸人家",
+      "order": 2
+    },
+    {
+      "id": "coasts",
+      "title": "海岸",
+      "description": "海风、礁石与远帆",
+      "order": 3
+    },
+    {
+      "id": "fields",
+      "title": "田园",
+      "description": "田野与乡间日常",
+      "order": 4
+    },
+    {
+      "id": "china",
+      "title": "中国名胜",
+      "description": "以套色木刻再访二十处中国著名景点",
+      "order": 5
+    },
+    {
+      "id": "cities",
+      "title": "旅游城市",
+      "description": "二十座知名旅游城市，各取一处未重复的代表景观",
+      "order": 6
+    },
+    {
+      "id": "life",
+      "title": "山河里的生活",
+      "description": "清晨、途中、暮色、夜里，二十幅生活风景展开一天的旅程",
+      "order": 7
+    },
+    {
+      "id": "festivals",
+      "title": "节日与民俗",
+      "description": "灯火、团圆与节庆习俗，二十幅套色木刻描绘过节的生活",
+      "order": 8
+    },
+    {
+      "id": "overseas",
+      "title": "海外风光",
+      "description": "雪峰、峡谷、瀑布与峡湾，二十幅套色木刻再访世界自然景观",
+      "order": 9
+    },
+    {
+      "id": "japan",
+      "title": "日本庭院与鸟居",
+      "description": "白砂、池泉、秋枫与朱红鸟居，五幅日本风格景观",
+      "order": 10
+    },
+    {
+      "id": "ocean",
+      "title": "海浪与潮汐",
+      "description": "卷浪、礁岸、浅湾、风暴与月夜，五幅海洋风景",
+      "order": 11
+    },
+    {
+      "id": "city-shanghai",
+      "title": "上海",
+      "description": "上海五幅套色木刻，园林、建筑与街巷展开城市风景",
+      "order": 12
+    },
+    {
+      "id": "city-suzhou",
+      "title": "苏州",
+      "description": "苏州五幅套色木刻，园林、建筑与街巷展开城市风景",
+      "order": 13
+    },
+    {
+      "id": "city-chengdu",
+      "title": "成都",
+      "description": "成都五幅套色木刻，园林、建筑与街巷展开城市风景",
+      "order": 14
+    },
+    {
+      "id": "city-kyoto",
+      "title": "京都",
+      "description": "京都五幅套色木刻，园林、建筑与街巷展开城市风景",
+      "order": 15
+    },
+    {
+      "id": "city-seoul",
+      "title": "首尔",
+      "description": "首尔五幅套色木刻，园林、建筑与街巷展开城市风景",
+      "order": 16
+    },
+    {
+      "id": "city-osaka",
+      "title": "大阪",
+      "description": "大阪五幅套色木刻，园林、建筑与街巷展开城市风景",
+      "order": 17
+    },
+    {
+      "id": "city-madrid",
+      "title": "马德里",
+      "description": "马德里五幅套色木刻，园林、建筑与街巷展开城市风景",
+      "order": 18
+    },
+    {
+      "id": "city-seville",
+      "title": "塞维利亚",
+      "description": "塞维利亚五幅套色木刻，园林、建筑与街巷展开城市风景",
+      "order": 19
+    },
+    {
+      "id": "city-barcelona",
+      "title": "巴塞罗那",
+      "description": "巴塞罗那五幅套色木刻，园林、建筑与街巷展开城市风景",
+      "order": 20
+    },
+    {
+      "id": "city-lisbon",
+      "title": "里斯本",
+      "description": "里斯本五幅套色木刻，园林、建筑与街巷展开城市风景",
+      "order": 21
+    },
+    {
+      "id": "city-granada",
+      "title": "格拉纳达",
+      "description": "格拉纳达五幅套色木刻，园林、建筑与街巷展开城市风景",
+      "order": 22
+    }
+  ]
+}

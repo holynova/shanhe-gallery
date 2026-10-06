@@ -1,0 +1,35 @@
+{
+  "title": "山河入版",
+  "description": "一百八十五幅套色木刻：从中国山河与海外风光，到庭院、海浪和人间烟火。新增上海、苏州、成都、京都、首尔、大阪及五座伊比利亚城市，每城五景，以刀痕与多彩套色展开旅程。",
+  "language": "zh-CN",
+  "features": {
+    "download": true,
+    "share": true
+  },
+  "layout": {
+    "mode": "grid",
+    "batchSize": 24,
+    "maxOutputBytes": 560000000,
+    "thumbWidths": [
+      480,
+      768
+    ],
+    "detailWidths": [
+      960,
+      1440,
+      1920
+    ],
+    "quality": {
+      "avif": 55,
+      "webp": 78,
+      "jpeg": 84
+    }
+  },
+  "style": {
+    "theme": "editorial"
+  },
+  "analytics": {
+    "enabled": false,
+    "provider": "umami"
+  }
+}

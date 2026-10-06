@@ -1,0 +1,7 @@
+name = "shanhe-gallery"
+compatibility_date = "2026-10-05"
+workers_dev = false
+routes = [{ pattern = "shanhe-gallery.xiaosang.cc/*", zone_name = "xiaosang.cc" }]
+
+[assets]
+directory = "./dist"
