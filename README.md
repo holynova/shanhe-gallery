@@ -30,7 +30,7 @@ npm run deploy:check
 npm run deploy
 ```
 
-Cloudflare Workers Static Assets · shanhe-gallery.xiaosang.cc · v0.1.1
+Cloudflare Workers Static Assets · shanhe-gallery.xiaosang.cc · v0.1.2
 
 源码与部署配置均在main维护；本地手动部署。详细生成与验证记录见GALLERY.md。
 Source and deployment configuration share the main branch. Deploy manually from the same commit. See GALLERY.md for generation and validation records.
