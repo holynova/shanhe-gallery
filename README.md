@@ -1,6 +1,6 @@
 # 山河入版 / Shanhe Gallery
 
-185张套色木刻风格原创AI画作，涵盖山河、名胜、生活、节庆、海外风光及十一城五景。支持分类浏览、全屏灯箱、键盘切换和下载。由内置image_gen生成；原图在incoming/，准确提示词在prompts.json。
+185 张套色木刻风格原创 AI 画作，涵盖山河、名胜、生活、节庆、海外风光及十一城五景。支持分类浏览、全屏灯箱、键盘切换和下载。由内置image_gen生成；原图在incoming/，准确提示词在prompts.json。
 
 An accessible gallery of 185 original AI-generated multicolor woodcut-style artworks, featuring landscapes, landmarks, everyday life, festivals and five scenes from each of eleven cities. Includes category filters, keyboard navigation, a full-screen lightbox and image downloads. Original images and generation prompts are preserved in this repository.
 
